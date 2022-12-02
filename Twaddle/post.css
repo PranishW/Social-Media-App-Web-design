@@ -1,0 +1,188 @@
+body{
+    background-color: rgb(206, 206, 206);
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.space{
+    height:1em;
+}
+.header{
+    height: 10%;
+    width: 100%;
+    background-color: white;
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: flex-start;
+}
+
+.img {
+    padding-top:1em;
+    padding-left: 1em;
+    width : 100%;
+    height : 4em;
+}
+img {
+    max-height: 100%;
+    max-width: 100%;
+    border-radius:0.5em;
+}
+.formin{
+    padding-left:5em;
+}
+.search{
+    width:15em;
+    height:2em;
+    border: black solid;
+    font-weight: 700;
+}
+.icons{
+    padding-left: 0.5em;
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: flex-start;
+}
+.bibi-search:hover{
+    background-color: rgb(188, 188, 188);
+}
+.bibi-search{
+    height:1.5em;
+    width:1.5em;
+    border: black solid;
+}
+.right{
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: flex-end;
+}
+.iconsh{
+    height:2em;
+    width:3em;
+}
+.bi{
+    height:1.5em;
+    width:1.5em;
+}
+.bihome , .bipost , .biprofile{
+    height:1.5em;
+    width:1.5em;
+}
+.bi:hover, .bihome:hover, .bipost:hover, .biprofile:hover {
+    background-color: aqua;
+}
+.post{
+    display:flex;
+    flex-direction: row;
+    align-items:flex-start;
+    justify-content: space-evenly;
+}
+.card{
+    width: 60em;
+    height: 30em;
+    background-color: azure;
+    border: black solid;
+}
+.card-img-top{
+    width:30em;
+    height:30em;
+    border: grey solid;
+    border-width: 0.5em;
+    border-radius:0.5em;
+}
+.text{
+    width: 57em;
+    height: 16em;
+}
+.list-group-items{
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+}
+.jet{
+    padding-left: 30em;
+    padding-right: 1em;
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: flex-end;
+}
+.Save{
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+    background-color: rgb(124, 124, 255);
+    height: 3em;
+    width:10em;
+    border: black solid;
+    border-radius: 0.5em;
+}
+.Save:hover{
+    background-color: rgb(184, 184, 255);
+}
+.Saved:hover{
+    background-color: rgb(255, 185, 185);
+}
+.Saved{
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+    background-color: rgb(255, 124, 124);
+    height: 3em;
+    width:10em;
+    border: black solid;
+    border-radius: 0.5em;
+}
+.space{
+    padding-left: 1em;
+}
+.postit:hover{
+    background-color: rgb(194, 255, 235);
+}
+.postit{
+    background-color: aquamarine;
+    height: 2.5em;
+    width:10em;
+    border: black solid;
+    border-radius: 0.5em;
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+    font-size: larger;
+}
+.op{
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-between;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+.op5{
+    height: 8em;
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-between;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+.c{
+    max-height: 100%;
+    max-width: 100%;
+    border: white solid;
+    border-radius:0.5em;
+}

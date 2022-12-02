@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="bookmarks.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="bg-gray-700">
+        <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+            <div class="relative flex h-20 items-center justify-between">
+                <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+                    <div class="flex flex-shrink-0 items-center">
+                        <img class="rounded-full h-12 w-auto lg:block"
+                            src="https://www.jcpe.tv/wp-content/uploads/2021/02/twaddle-tendency.png"
+                            alt="Your Company">
+                    </div>
+                    <div class="hidden sm:ml-6 sm:block">
+                        <div class="flex   items-center ">
+                            <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+                            <h1 class="text-white pl-2 pr-6 relative mr-40 py-4  rounded-md text-3xl font-serif font-semibold"
+                                aria-current="page">T W A D D L E</h1>
+                            <form class="ml-40 " id="nosubmit">
+                                <input class="w-96 h-8 text-center" type="text" placeholder="Search">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Profile dropdown -->
+                <div class="relative ml-3">
+                    <div>
+                        <a href="profile.html" type="button" class="flex rounded-full bg-gray-800 text-sm hover:outline-none hover:ring-2 hover:ring-white hover:ring-offset-2  
+                            hover:ring-offset-gray-800" id="user-menu-button" aria-expanded="false"
+                            aria-haspopup="true">
+                            <img class="h-12 w-12 rounded-full" src="unnamed.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+    </nav>
+    <div class="all flex flex-row text-center h-full  ">
+        <!-- settings and features-->
+        <div class="settings basis-1/4 border-2 p-3 border-slate-100 ">
+            <div class="flex h-24 items-center justify-center text-xl">
+                <a type="button" href="post.html" class="flex w-48 h-12 hover:shadow-md hover:shadow-emerald-500 items-center justify-center
+                transition-all duration-300 ease-in-out  bg-emerald-500 rounded-full text-white" id="post">Post</a>
+            </div>
+            <ul class="relative ">
+                <li class="flex h-16 items-center justify-center text-xl hover:bg-slate-200 hover:font-semibold">
+                    <a href="home.html"><i class="fa-sharp fa-solid fa-house pr-2"></i>Home</a>
+                </li>
+                <li class=" flex h-16 items-center justify-center text-xl hover:bg-slate-200 hover:font-semibold">
+                    <a href="settings.html"><i class="fa-solid fa-gear pr-2"></i>Settings</a>
+                </li>
+                <li class="flex h-16 items-center justify-center text-xl hover:bg-slate-200 hover:font-semibold">
+                    <a href="profile.html"><i class="fa-solid fa-message pr-2"></i>Messages</a>
+                </li>
+                <li class="flex h-16 items-center justify-center text-xl hover:bg-slate-200 hover:font-semibold">
+                    <a href="settings.html"><i class="fa-solid fa-bell pr-2"></i>Notifications</a>
+                </li>
+                <li class="flex h-16 items-center justify-center text-xl bg-slate-200 font-semibold">
+                    <a href="bookmarks.html"><i class="fa-solid fa-bookmark pr-2"></i>Bookmarks</a>
+                </li>
+            </ul>
+            <div class="flex h-24 items-center justify-center text-xl">
+                <a type="button" href="login.html" class="flex w-48 h-12 hover:shadow-md hover:shadow-red-500 items-center justify-center
+                transition-all duration-300 ease-in-out  bg-red-500 rounded-full text-white">Logout</a>
+            </div>
+        </div>
+        <div class="main basis-1/2   border-slate-100">
+            <h1 class="flex h-12 border-slate-100 border-b-2 items-center pl-4 text-xl font-bold">Bookmarks</h1>
+            <div class="border-slate-100 border-b-2">
+                <div class="flex pl-6 pt-6 items-center justify-between">
+                    <div class="flex items-center">
+                        <button type="button" class="flex rounded-full bg-gray-800 text-sm hover:outline-none hover:ring-2 hover:ring-white 
+                    hover:ring-offset-2  hover:ring-offset-gray-800" id="user-menu-button" aria-expanded="false"
+                            aria-haspopup="true">
+                            <img class="h-12 w-12 rounded-full" src="unnamed.jpg" alt="">
+                        </button>
+                        <div class="username text-left pl-4 leading-3 ">
+                            <div class="name  font-semibold text-xl">
+                                Burner
+                            </div>
+                            <div>
+                                @burneracc_24
+                            </div>
+                        </div>
+                    </div>
+                    <i class="fa-solid fa-ellipsis-vertical  mr-12"></i>
+                </div>
+                <!--text-->
+                <div class="text-left pl-8 py-4 pr-2 text-lg">
+                    Hello!<br>
+                    I am new to Twaddle.
+                </div>
+                <!--comments bookmarks likes-->
+                <div class="flex justify-around py-6">
+                    <span class="reply">
+                        <i class="fa-regular fa-comment fa-lg"></i>
+                    </span>
+                    <span class="bookmark">
+                        <i class="fa-regular fa-bookmark fa-lg bookmark"></i>
+                    </span>
+                    <span class="like">
+                        <i class="fa-regular fa-heart fa-lg like"></i>
+                    </span>
+                </div>
+            </div>
+            <div class="post1 border-slate-100 border-b-2">
+                <!--pfp-->
+                <div class="post1 border-slate-100 border-b-2">
+                    <!--pfp-->
+                    <div class="flex pl-6 pt-6 items-center justify-between">
+                        <div class="flex items-center">
+                            <button type="button" class="flex rounded-full bg-gray-800 text-sm hover:outline-none hover:ring-2 hover:ring-white 
+                        hover:ring-offset-2  hover:ring-offset-gray-800" id="user-menu-button" aria-expanded="false"
+                                aria-haspopup="true">
+                                <img class="h-12 w-12 rounded-full" src="OIP.jpg" alt="">
+                            </button>
+                            <div class="username text-left pl-4 leading-3 ">
+                                <div class="name  font-semibold text-xl">
+                                    John
+                                </div>
+                                <div>
+                                    @john22
+                                </div>
+                            </div>
+                        </div>
+                        <i class="fa-solid fa-ellipsis-vertical  mr-12"></i>
+                    </div>
+                    <!--text-->
+                    <div class="text-left pl-8 py-4 pr-2 text-lg">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Commodi at libero reprehenderit et optio eveniet animi deleniti laudantium beatae sed enim,
+                        unde ullam consectetur vero quam perferendis, eos quaerat ducimus.
+                    </div>
+                </div>
+                <!--comments bookmarks likes-->
+                <div class="flex justify-around py-6">
+                    <span class="reply">
+                        <i class="fa-regular fa-comment fa-lg"></i>
+                    </span>
+                    <span class="bookmark">
+                        <i class="fa-regular fa-bookmark fa-lg bookmark"></i>
+                    </span>
+                    <span class="like">
+                        <i class="fa-regular fa-heart fa-lg like"></i>
+                    </span>
+                </div>
+            </div>
+            <div class="post1 border-slate-100 border-b-2">
+                <!--pfp-->
+                <div class="flex pl-6 pt-6 items-center justify-between">
+                    <div class="flex items-center">
+                        <button type="button" class="flex rounded-full bg-gray-800 text-sm hover:outline-none hover:ring-2 hover:ring-white 
+                    hover:ring-offset-2  hover:ring-offset-gray-800" id="user-menu-button" aria-expanded="false"
+                            aria-haspopup="true">
+                            <img class="h-12 w-12 rounded-full" src="download.jpg" alt="">
+                        </button>
+                        <div class="username text-left pl-4 leading-3 ">
+                            <div class="name  font-semibold text-xl">
+                                ViratFan
+                            </div>
+                            <div>
+                                @18vkohlifan
+                            </div>
+                        </div>
+                    </div>
+                    <i class="fa-solid fa-ellipsis-vertical  mr-12"></i>
+                </div>
+                <!--content-->
+                <div class="text-left pl-8 py-4 pr-2 text-lg">
+                    Can't wait to watch Virat play against Pakistan in the WorldT20!!!
+                    <p class="inline text-sky-500">#INDvsPAK</p>
+                    <video autoplay muted controls class="pr-2">
+                        <source src="twaddle.mp4" </video>
+                </div>
+                <!--comments bookmarks likes-->
+                <div class="flex justify-around py-6">
+                    <span class="reply">
+                        <i class="fa-regular fa-comment fa-lg"></i>
+                    </span>
+                    <span class="bookmark">
+                        <i class="fa-regular fa-bookmark fa-lg bookmark"></i>
+                    </span>
+                    <span class="like">
+                        <i class="fa-regular fa-heart fa-lg like"></i>
+                    </span>
+                </div>
+            </div>
+
+        </div>
+        <div class="news and trends basis-1/4 border-2  border-slate-100">
+            <h1 class="flex h-12 border-slate-100 border-b-2 items-center pl-4 text-xl font-bold">News And trends</h1>
+            <a class="main-trend flex bg-cover bg-center h-64 box-border p-4 content-end items-end text-white font-bold text-xl 
+             transition-all ease-in-out duration-300 hover:shadow-2xl hover:border-2" href="">
+                <div>
+                    <p class="font-thin text-sm text-white text-left">Trending #1</p>
+                    <p>World's 1st 5G gaming device</p>
+                </div>
+            </a>
+            <ul class="relative text-left ">
+                <li
+                    class="flex h-18 items-center pl-4 pb-1 hover:bg-slate-200 hover:font-semibold border-slate-100 border-b-2">
+                    <a href="">
+                        <p class="font-thin text-sm text-zinc-500">Trending</p>
+                        <p class="text-lg">INDvsPAK</p>
+                        <p class="text-zinc-500">124.7k posts</p>
+                    </a>
+                </li>
+                <li
+                    class="flex h-18 items-center pl-4 pb-1 hover:bg-slate-200 hover:font-semibold border-slate-100 border-b-2">
+                    <a href="">
+                        <p class="font-thin text-sm text-zinc-500">Trending</p>
+                        <p class="text-lg">Netflix</p>
+                        <p class="text-zinc-500">100.2k posts</p>
+                    </a>
+                </li>
+                <li
+                    class="flex h-18 items-center pl-4 pb-1 hover:bg-slate-200 hover:font-semibold border-slate-100 border-b-2">
+                    <a href="">
+                        <p class="font-thin text-sm text-zinc-500">Trending</p>
+                        <p class="text-lg">UEFA</p>
+                        <p class="text-zinc-500">30.1k posts</p>
+                    </a>
+                </li>
+                <li
+                    class="flex h-18 items-center pl-4 pb-1 hover:bg-slate-200 hover:font-semibold border-slate-100 border-b-2">
+                    <a href="">
+                        <p class="font-thin text-sm text-zinc-500">Trending</p>
+                        <p class="text-lg">Ukraine War</p>
+                        <p class="text-zinc-500">24.7k posts</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/d193b74453.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
